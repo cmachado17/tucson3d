@@ -1,8 +1,9 @@
 import React from 'react';
+import GaleriaImagenes from './GaleriaImagenes';
 
 const Home = () => {
     return ( 
-        <h2>No home</h2>
+        <GaleriaImagenes />
      );
 }
  
