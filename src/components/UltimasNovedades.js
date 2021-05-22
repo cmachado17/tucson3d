@@ -45,8 +45,8 @@ const UltimasNovedades = () => {
     {articulos.map(articulo => {
         return(
             <Col md={4} className="mt-5">
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={articulo.foto} />
+            <Card>
+              <Card.Img variant="top" src={Logo} />
               <Card.Body>
                 <Card.Title>{articulo.titulo}</Card.Title>
                 <Card.Text>

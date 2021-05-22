@@ -41,6 +41,12 @@ body {
   }
 }
 
+/* Contacto */
+
+.formulario-contacto{
+  background-color: #f8f9fa;
+  border-radius: 50px;
+}
 
 /* Footer */
 
