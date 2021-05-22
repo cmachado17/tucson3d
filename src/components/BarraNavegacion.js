@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 const BarraNavegacion = () => {
   return (
@@ -18,7 +18,7 @@ const BarraNavegacion = () => {
           <NavDropdown.Item><Link to="/productos">Soportes</Link></NavDropdown.Item> 
           <NavDropdown.Item><Link to="/productos">Llaveros</Link></NavDropdown.Item> 
           </NavDropdown>
-          <Nav.Link><Link to="/sobrenosotros">Contacto</Link></Nav.Link>
+          <Nav.Link><Link to="/contacto">Contacto</Link></Nav.Link>
         </Nav>
         </Navbar.Collapse>
     </Navbar>

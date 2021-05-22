@@ -9,6 +9,7 @@ body {
 .header {
   height: 10vh;
   width: 100%;
+  background-color: #f8f9fa;
 }
 
 /* Navbar */
@@ -37,5 +38,19 @@ body {
 @media (min-width: 1100px) {
   .galeria-imagenes img{
     height: 85vh;
+  }
+}
+
+
+/* Footer */
+
+.footer-inferior{
+  background-color: black;
+}
+
+@media (min-width: 768px){
+  .mapa{
+    min-height: 300px;
+    min-width: 350px;
   }
 }

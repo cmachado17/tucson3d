@@ -6,6 +6,8 @@ import Productos from "./components/Productos";
 import SobreNosotros from "./components/SobreNosotros";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer";
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
@@ -23,8 +25,13 @@ function App() {
             <Route path="/sobrenosotros">
               <SobreNosotros />
             </Route>
+            <Route path="/contacto">
+              <Contacto />
+            </Route>
         </Switch>
+      
       </div>
+      <Footer />
     </Router>
   );
 }
