@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 import {Link} from 'react-router-dom';
 
 const BarraNavegacion = () => {
@@ -12,12 +12,13 @@ const BarraNavegacion = () => {
         <Nav className="mx-auto">
           <Nav.Link><Link to="/">Home</Link></Nav.Link>
           <Nav.Link><Link to="/sobrenosotros">Sobre nosotros</Link></Nav.Link>
-          <NavDropdown title="Productos">
+          <Nav.Link><Link to="/productos">Productos</Link></Nav.Link>
+          {/* <NavDropdown title="Productos">
           <NavDropdown.Item><Link to="/productos">Mates</Link></NavDropdown.Item> 
           <NavDropdown.Item><Link to="/productos">Figuras</Link></NavDropdown.Item> 
           <NavDropdown.Item><Link to="/productos">Soportes</Link></NavDropdown.Item> 
           <NavDropdown.Item><Link to="/productos">Llaveros</Link></NavDropdown.Item> 
-          </NavDropdown>
+          </NavDropdown> */}
           <Nav.Link><Link to="/contacto">Contacto</Link></Nav.Link>
         </Nav>
         </Navbar.Collapse>

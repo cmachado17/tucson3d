@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import GaleriaImagenes from './GaleriaImagenes';
 import UltimasNovedades from './UltimasNovedades';
 
-const Home = () => {
+const Home = (props) => {
     return ( 
         <Fragment>
  <GaleriaImagenes /> 
@@ -10,7 +10,7 @@ const Home = () => {
     <div className="text-center">
     <h2>Ultimas Novedades</h2>
     </div>
-    <UltimasNovedades />
+    <UltimasNovedades articulos={props.articulos}/>
 </div>
         </Fragment>
        
